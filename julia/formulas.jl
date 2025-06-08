@@ -1,5 +1,5 @@
 using CSV, LSurvival, GLM, Plots, StatsModels, DataFrames, Distributions, Random
-# predict
+# predict   survival probability
 function predictsurv(model,data)
     ch=cumsum(model.bh[:,1])
     β=coef(model)
