@@ -1,0 +1,22 @@
+to do: check availability of all functions needed
+
+simulate continuous, binary and time to event data, done
+cox model, done (has also robust variance estimator and allows for weights)
+predictions on cox model, done (written function)
+
+matching procedure:
+ps matching (no function, need to write on my own)
+template matching 
+ipw (done, written function)
+g-comp (done, written function)
+tmle (there is no function available, decide what to do)
+
+
+try simulation with two methods to see speed of software and compare with R
+
+
+priorities:
+- gcomp function, with bootstrap (done)
+- ps matching (identical to R)
+- simulate two methods
+- template matching
